@@ -4,17 +4,17 @@
 #include <ArduinoJson.h>
 
 // WiFi 配置信息
-const char* ssid = "SBLYK";
-const char* password = "qw123456er";
+const char* ssid = "Wifi_name";
+const char* password = "Wifi_passport";
 
 // MQTT 服务器设置
-const char* mqtt_server = "a3863654.ala.dedicated.aliyun.emqxcloud.cn";
+const char* mqtt_server = "mqtt_server";
 const int mqtt_port = 1883;
 const char* mqtt_topic_sub = "environment/response"; // 订阅的主题
 const char* mqtt_topic_pub = "arduino/signal";       // 发布的主题
-const char* mqtt_client_id = "arduino_client";
-const char* mqtt_username = "Memory";
-const char* mqtt_password = "qw123456er";
+const char* mqtt_client_id = "mqtt_client_id";
+const char* mqtt_username = "username";
+const char* mqtt_password = "password";
 
 // 设备引脚定义
 const int redLED = 6;       // 红色 LED 引脚
